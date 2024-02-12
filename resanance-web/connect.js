@@ -17,6 +17,7 @@ function send(type = "", profile = "", id = "", vol = "") {
 } 
 
 function initConnection() {
+    document.getElementById("start-button").style.display = "none";
     setStatus("Connecting...", "yellow");
     socket = new WebSocket(ip);
     socket.onopen = (e) => send();
