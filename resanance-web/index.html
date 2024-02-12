@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resanance Soundboard</title>
+<script src="connect.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="header">
+		<img src="resanance_logo.png" alt="Logo" height="50px"></img>
+		<div class="status">
+			<span>Status:</span>
+			<span id="status-text" style="font-style: italic;"></span>
+		</div>
+	</div>
+	<div class="content">
+		<div class="grid-container" id="sounds-grid">
+		</div>
+	</div>
+
+	<!-- Start connection when DOM is loaded -->
+	<script>
+		initConnection();
+	</script>
+</body>
+
+</html>
