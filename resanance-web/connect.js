@@ -1,4 +1,4 @@
-let ip = "ws://192.168.2.112:1254";
+let ip = "ws://localhost:1254";
 let connectKey = "";
 let socket;
 let activeProfile = "";
